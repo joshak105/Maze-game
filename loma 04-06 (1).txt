@@ -1,0 +1,17 @@
+ o.ooooos
+oo.o...ok
+o......ob
+oo.o???oa
+ o.o~~~~n
+player start
+1,2
+crate starts
+2,1
+2,2
+2,3
+goals
+2,0
+2,2
+2,4
+
+Based on map 04-06 from the LOMA collection

@@ -1,0 +1,13 @@
+o?...#~~s
+xo...#~~k
+&xo..vo#b
+vxvo.>>^a
+c>*xo...n
+player start
+2,0
+crate starts
+5,1
+goals
+7,2
+
+A simple tutorial level for a sokoban clone game.

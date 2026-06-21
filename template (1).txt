@@ -1,0 +1,49 @@
+........s
+........k
+........b
+........a
+........n
+player start
+0,0
+crate starts
+1,1
+goals
+1,1
+
+Optional level description.
+
+The file format consists of
+    1st) 5 rows of characters, each row exactly 9 characters. Default tile guide below.
+    2nd) The text "player start"
+    3rd) A pair of numbers separted by a comma that indicates the initial location the player
+    4th) The text "crate starts"
+    5th) A list of pairs of numbers (same format as the player start), one per line, that indicates
+        the initial positions of the crates.
+    6th) The text "goals"
+    7th) A list of pairs of numbers (same format as the player start), one per line, that indicates
+        the target/goal locations of the crates to complete the map
+        The goal list MUST be equal in length to the crate list.
+    8th) All text after the goals list is ignored from loading and can be used as comments or for map
+        descriptions.
+
+--------------------------------------
+Tile guide
+Char    Description         Passable?
+--------------------------------------
+<space> blank tile.         Impassable
+o       Concentric boxes.   Impassable
+.       Small Checkerboard  Passable
+x       Medium Checkerboard Passable
+#       Large Checkerboard  Passable
+~       Deep Water          Impassable
+_       Shallow Water       Passable
+?       Happy little plant  Impassable
+s       Sokoban Tile 1      Impassable
+k       Sokoban Tile 2      Impassable
+b       Sokoban Tile 3      Impassable
+a       Sokoban Tile 4      Impassable
+n       Sokoban Tile 5      Impassable
+*       Tutorial dot        Impassable
+c       Tutorial crate      Impassable
+C       Crate Mask          Impassable
+&       Tutorial character  Impassable
