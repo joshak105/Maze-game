@@ -14,5 +14,6 @@ Gameplay logic — movement, collision, and level state — builds on the origin
 
 The game loads level layouts from plain text map files (maze.txt, map1.txt)
 
+Need Python3 for this project to run smoothly
 
 
